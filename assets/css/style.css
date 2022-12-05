@@ -5,6 +5,10 @@ body {
   background-color: black;
 }
 
+.nav-black {background-color: black;
+  opacity: 0.7;
+  color: white;}
+
 .card-img-top {
   aspect-ratio: 5/4;
 }
@@ -12,10 +16,6 @@ body {
 .footer-wrap {
   display: flex; justify-content: space-around;
   align-items: center;
-}
-
-.nav-black {background-color: black;
-  opacity: 0.7;
-  color: white;
+  font-size: 16pt
 
 }

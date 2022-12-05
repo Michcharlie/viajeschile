@@ -8,8 +8,22 @@ $(document).scroll(function(){
 })
 
 
-
 $(function(){
     $('[data-bs-toggle="tooltip"]').tooltip();
 });
+
+
+$(function () {
+    $('[data-bs-toggle="tooltip"]').tooltip();
+  
+    $("#enviar").click(function () {
+      alert("Gracias por contactarnos");
+    });
+  
+    $(".enviar").dblclick(function () {
+      $(this).css({
+        color: "red !important",
+      });
+    });
+  });
 
