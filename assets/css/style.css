@@ -1,4 +1,3 @@
-
 body {
   padding: 0;
   margin: 0;
@@ -6,9 +5,17 @@ body {
   background-color: black;
 }
 
-.bg-oscuro {background-color: black;}    
+.card-img-top {
+  aspect-ratio: 5/4;
+}
 
-.form-label {color: white;}
+.footer-wrap {
+  display: flex; justify-content: space-around;
+  align-items: center;
+}
 
-.btn-info {color: white;}
+.nav-black {background-color: black;
+  opacity: 0.7;
+  color: white;
 
+}
